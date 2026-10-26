@@ -641,7 +641,7 @@
         lat: 19.2479, lng: 73.1471,
         tier: "College Students & Youth",
         desc: "Students and young crowd",
-        boosts: { cafe: 1.28, stationery: 1.28, bakery: 1.20, restaurant: 1.12 }
+        boosts: { cafe: 1.28, stationery: 1.35, bakery: 1.20, restaurant: 1.12 }
       },
       {
         name: "Station Road / Shivaji Chowk",
@@ -716,7 +716,7 @@
             if (category === "pharmacy") boost = 30 * proximityRatio;
             else if (category === "grocery_or_supermarket") boost = 8 * proximityRatio;
           } else if (a.type === "education") {
-            if (category === "stationery") boost = 28 * proximityRatio;
+            if (category === "stationery") boost = 42 * proximityRatio;
             else if (category === "cafe") boost = 30 * proximityRatio;
             else if (category === "bakery") boost = 20 * proximityRatio;
             else if (category === "restaurant") boost = 14 * proximityRatio;
